@@ -1,0 +1,29 @@
+/* Herança e Especificidade */
+
+/*
+body {
+    color: red;
+}*/
+/*
+p {
+    color: blue; 
+}
+/*No caso de seletores Iguais o ultimo vai ser aplicado
+p {
+    color: green;
+}*/
+
+/* Se um seletor for mais especifico que outro a regra mais especifica será aplicada
+(terá precedência sobre mais gerais )*/
+
+* {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+p.verde {
+    color: green;
+}
