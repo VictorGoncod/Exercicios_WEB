@@ -36,7 +36,7 @@ footer{
         flex: 1;
     }
 }
-@madia (min-width:800px) {
+@media (min-width:800px) {
     .main{
         flex: 3;
     }
