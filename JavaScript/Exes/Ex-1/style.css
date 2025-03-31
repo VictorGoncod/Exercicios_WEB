@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    background: url('https://media.gettyimages.com/id/1452719151/video/south-korea-south-korean-won-printing-press-machine-print-out-current-50000-won-banknotes.jpg?s=640x640&k=20&c=rk86AGqB5cSQVugaXubGmPOGppnV8f1JMK-09DgaT64=') no-repeat center center/cover;
+    min-height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    text-align: center;
+    background-color: #d4a236b4;
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #262b0dbb;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fcff5a;
+    color: #000;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 7px;
+  }
+  
